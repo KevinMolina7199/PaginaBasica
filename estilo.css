@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #30336b;
+}
+
+header {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.75) -10%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding: 0.5rem 0 5rem;
+  font-size: 1.25rem;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+h1:hover,
+h2:hover {
+  animation: scale 0.3s ease-in-out;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+h2,
+p,
+header {
+  opacity: 5;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+h2 {
+  color: whitesmoke;
+}
+
+p {
+  margin: 20px;
+  text-align: justify;
+  color: white;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+nav {
+  background-color: #333; /* color de fondo blanco */
+  color: #333;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: #ffd700;
+}
+a {
+  color: tomato;
+}
+.negrita {
+  color: #6ab04c;
+}
+img {
+  display: block;
+  margin: auto;
+}
+.my-list li {
+  margin: 10px 0;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  list-style: none;
+}
+
+.my-list li:hover {
+  text-align: center;
+  transform: scale(3);
+}
+.my-list li a:hover {
+  color: #007bff; /* Cambia el color del texto del enlace al pasar el cursor por encima */
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.texto {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.imagen {
+  flex: 1;
+  text-align: right;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: white;
+}
+
+li {
+  margin-bottom: 10px;
+}
+strong {
+  font-weight: bold;
+  color: #6ab04c;
+}
+/* Estilos para el botón de cambio de esquema de color */
+.color-scheme {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.btn-scheme {
+  background-color: #1c6ea4;
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}

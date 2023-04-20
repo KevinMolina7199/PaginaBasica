@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML</title>
+    <meta name="viewport" content="width=device-width" />
+    <link id="estilo" href="estilo.css" rel="stylesheet" />
+    <link id="estilo2" href="estilo3.css" rel="stylesheet" disabled />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/P_HTML.html">HTML</a></li>
+        <li><a href="/P_CSS.html">CSS</a></li>
+        <li><a href="P_JAVA.html">JavaScript</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Informacion sobre HTML</h1>
+    </header>
+    <section>
+      <h2>¿Que es HTML?</h2>
+      <p>
+        HTML (Hypertext Markup Language) es el lenguaje de marcado estándar
+        utilizado para crear páginas web. Se utiliza para estructurar y
+        presentar el contenido de una página web, incluyendo texto, imágenes,
+        videos, formularios y otros elementos.
+      </p>
+
+      <p>
+        Los elementos HTML están etiquetados con etiquetas HTML, que describen
+        el contenido y la estructura de la página. Los navegadores web
+        interpretan estas etiquetas para mostrar el contenido de la página al
+        usuario.
+      </p>
+
+      <p>
+        HTML es un lenguaje fácil de aprender y es esencial para cualquier
+        desarrollador web que desee crear páginas web. Aunque existen muchos
+        otros lenguajes de programación y herramientas disponibles para la
+        creación de páginas web, HTML sigue siendo el lenguaje básico que debe
+        conocer cualquier desarrollador web.
+      </p>
+      <img
+        src="https://p4.wallpaperbetter.com/wallpaper/453/129/282/html5-hyper-text-markup-language-html-wallpaper-preview.jpg"
+        alt=""
+        width="500"
+      />
+      <h2>¿Cual es su estructura?</h2>
+      <p>
+        La estructura básica de una página web en HTML se compone de varias
+        partes que se organizan jerárquicamente. Esta estructura se divide en
+        varias partes, a saber:
+      </p>
+      <p>
+        <strong class="negrita">&lt;!DOCTYPE html&gt;</strong>: Es una
+        declaración que indica el tipo de documento que se está utilizando. En
+        este caso, se trata de una página HTML5.
+      </p>
+      <p>
+        <strong class="negrita">&lt;html&gt;</strong>: Es la etiqueta raíz de la
+        página web. Todo el contenido de la página debe estar contenido dentro
+        de esta etiqueta.
+      </p>
+      <p>
+        <strong class="negrita">&lt;head&gt;</strong>: Es la sección de la
+        página donde se incluyen metadatos, como el título de la página, la
+        descripción, palabras clave, y otros elementos importantes para la
+        presentación de la página.
+      </p>
+      <p>
+        <strong class="negrita">&lt;meta charset="UTF-8"&gt;</strong>: Es una
+        etiqueta que establece la codificación de caracteres de la página. En
+        este caso, se utiliza UTF-8, que es una codificación de caracteres que
+        admite la mayoría de los idiomas.
+      </p>
+      <p>
+        <strong class="negrita">&lt;title&gt;</strong>: Es la etiqueta que
+        establece el título de la página, que se muestra en la pestaña del
+        navegador.
+      </p>
+      <p>
+        <strong class="negrita">&lt;body&gt;</strong>: Es la etiqueta que
+        contiene todo el contenido visible de la página.
+      </p>
+      <p>
+        <strong class="negrita">&lt;header&gt;</strong>: Es la etiqueta que se
+        utiliza para el encabezado de la página. Por lo general, esta etiqueta
+        contiene el logotipo y la navegación de la página.
+      </p>
+      <p>
+        <strong class="negrita">&lt;nav&gt;</strong>: Es la etiqueta que se
+        utiliza para la navegación de la página. Por lo general, se utiliza una
+        lista de enlaces para la navegación.
+      </p>
+      <p>
+        <strong class="negrita">&lt;ul&gt;</strong>: Es la etiqueta que se
+        utiliza para crear una lista sin ordenar.
+      </p>
+      <p>
+        <strong class="negrita">&lt;li&gt;</strong>: Es la etiqueta que se
+        utiliza para cada elemento de la lista.
+      </p>
+      <p>
+        <strong class="negrita">&lt;a href="#"&gt;</strong>: Es la etiqueta que
+        se utiliza para crear un enlace. El atributo href establece la URL a la
+        que se enlaza el enlace.
+      </p>
+      <p>
+        <strong class="negrita">&lt;main&gt;</strong>: Es la etiqueta que se
+        utiliza para el contenido principal de la página.
+      </p>
+      <p>
+        <strong class="negrita">&lt;h1&gt;</strong> y
+        <strong class="negrita">&lt;h2&gt;</strong>: Son etiquetas que se
+        utilizan para los encabezados de la página. El número en la etiqueta
+        indica el nivel de encabezado.
+      </p>
+      <p>
+        <strong class="negrita">&lt;p&gt;</strong>: Es la etiqueta que se
+        utiliza para los párrafos de texto.
+      </p>
+      <p>
+        <strong class="negrita">&lt;footer&gt;</strong>: Es la etiqueta que se
+        utiliza para el pie de página de la página web
+      </p>
+      <img
+        src="https://jairogarciarincon.com/img/clases/1019.jpg"
+        alt=""
+        width="300"
+      />
+
+      <h2>Ejemplo:</h2>
+      <img
+        src="https://kinsta.com/wp-content/uploads/2021/11/Untitled-54.png"
+        alt=""
+      />
+      <h2>Recursos útiles para aprender HTML</h2>
+
+      <ul class="my-list">
+        <li><a href="https://www.w3schools.com/html/">W3Schools</a></li>
+        <li>
+          <a href="https://developer.mozilla.org/es/docs/Web/HTML"
+            >Mozilla Developer Network</a
+          >
+        </li>
+        <li><a href="https://html.com/">HTML.com</a></li>
+      </ul>
+    </section>
+    <div class="color-scheme">
+      <button class="btn-scheme" id="change-font-button">
+        Cambiar tipo de letra
+      </button>
+      <button class="btn-scheme" onclick="cambiarHojaEstilo()">
+        Cambiar Estilo
+      </button>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
